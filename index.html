@@ -1,17 +1,226 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>test</title>
-	<script src="http://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
-	<!-- 	<script src="https://unpkg.com/vue@2.3.3/dist/vue.min.js"></script> -->
-	<style type="text/css">
-	</style>
-</head>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>甘肃愽海建设工程有限公司</title>
+    <meta name="keywords" content="甘肃愽海建设工程有限公司,甘肃工程,甘肃路桥,公路桥梁工程,隧道工程,海外工程,房地产开发,市政工程,机械设备">
+    <meta name="description" content="甘肃愽海建设工程有限公司可承接路桥工程、土石方工程；建筑工程施工；建筑装修装饰工程设计及施工；环保工程施工；输变电工程施工；钢结构工程施工；工程项目咨询和管理服务；管道安装及维修；水暖设备、建材（不含木材）、电线电缆、劳保用品、五金工具、办公设备、机械设备、水泥、石料、沙石料、防腐材料批发零售；工程机械租赁。">
+    <link rel="stylesheet" type="text/css" href="plugIn/swiper/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/public.css">
+    <link rel="stylesheet" type="text/css" href="styles/home.css">
+  </head>
+  <body>
+    <div class="layout clearfix">
+      <a href="index.html" class="logo"><img src="images/logo.png"></a>
+      <nav>
+        <ul class="fr">
+          <li class="fl active"><a href="index.html">首页</a></li>
+          <li class="fl"><a href="about.html">公司概况</a></li>
+          <li class="fl"><a href="news.html">新闻动态</a></li>
+          <li class="fl"><a href="industry.html">产业板块</a></li>
+          <li class="fl"><a href="culture.html">公司文化</a></li>
+          <li class="fl"><a href="recruit.html">招贤纳士</a></li>
+          <li class="fl"><a href="contact.html">联系我们</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div>
+      <div class="layout">
+        <div class="banner swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image: url('images/banner1.jpg')"></div>
+            <div class="swiper-slide" style="background-image: url('images/banner2.jpg')"></div>
+            <div class="swiper-slide" style="background-image: url('images/banner3.jpg')"></div>
+          </div>
+          <!-- 如果需要分页器 -->
+          <div class="swiper-pagination"></div>    
+          <!-- 如果需要导航按钮 -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+      <div class="home_content_box home_div1">
+        <h1><span>公司概况</span></h1>
+        <div class="clearfix layout">
+          <img src="images/home1.jpg">
+          <div class="right">
+            <p>
+              甘肃愽海建设工程有限公司成立于2017年，注册资本金500万元，是一家集轨道交通、道路桥梁、市政基础、房屋建筑为主的综合型建筑投资公司。现具有市政公用工程施工总承包壹级、公路工程施工总承包壹级、房屋建筑工程施工总承包壹级、建筑装修装饰工程专业承包壹级、机电设备安装工程专业承包壹级、桥梁工程专业承包贰级、隧道工程专业承包贰级、压力管道安装GB1、GB2(2)级及爆破与拆除工程专业承包叁级资质等。时代在进步，安徽路桥集团与时俱进，不忘初心，坚持围绕主业，以人为本，科学发展，在拓展产业链和培育新业态方面扎实推进，着力实施“施工+投资”业务模式。
+            </p>
+            <button class="showMore" @click="goProfile">查看更多&nbsp;&nbsp;&gt;&gt;</button>
+          </div>
+        </div>
+      </div>
+      <div class="home_content_box home_div2">
+        <h1><span>新闻动态</span></h1>
+        <div class="clearfix layout">
+          <div class="left">
+            <ul>
+              <li>
+                <a href="">路桥公司迅速开展安全隐患大排查、大清理、大整治专项行动</a>
+                <span>2017-11-12</span>
+              </li>
+              <li>
+                <a href="">筑牢安全防火墙，京昌公司“119消防安全日”组织开展消防演练活动</a>
+                <span>2017-11-04</span>
+              </li>
+              <li>
+                <a href="">以赛促学求提升，齐心共庆十九大——集团公司举办“不忘初心，牢记使命”知识竞赛</a>
+                <span>2017-10-25</span>
+              </li>
+              <li>
+                <a href="">对标先进携手行，提质增效管理新——公司与广西路桥集团共谱合作新篇！</a>
+                <span>2017-10-10</span>
+              </li>
+              <li>
+                <a href="">路桥公司迅速开展安全隐患大排查、大清理、大整治专项行动</a>
+                <span>2017-09-28</span>
+              </li>
+              <li>
+                <a href="">筑牢安全防火墙，京昌公司“119消防安全日”组织开展消防演练活动</a>
+                <span>2017-09-05</span>
+              </li>
+              <li>
+                <a href="">对标先进携手行，提质增效管理新——公司与广西路桥集团共谱合作新篇！</a>
+                <span>2017-08-14</span>
+              </li>
+            </ul>
+            <button class="showMore" onclick="location.href='about.html'">查看更多&nbsp;&nbsp;&gt;&gt;</button>
+          </div>
+          <img src="images/home2.jpg">
+        </div>
+      </div>    
+      <div class="home_content_box home_div3">
+        <h1><span>经典工程</span></h1>
+        <div class="layout">
+          <div class="home_project swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="projectDetail.html?id=1">
+                  <img src="images/home_project1.jpg">
+                  <h4>输电线路工程</h4>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="projectDetail.html?id=2">
+                  <img src="images/home_project2.jpg">
+                  <h4>输电线路工程</h4>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="projectDetail.html?id=3">
+                  <img src="images/home_project3.jpg">
+                  <h4>输电线路工程</h4>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="projectDetail.html?id=4">
+                  <img src="images/home_project4.jpg">
+                  <h4>输电线路工程</h4>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="projectDetail.html?id=5">
+                  <img src="images/home_project5.jpg">
+                  <h4>输电线路工程</h4>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="projectDetail.html?id=6">
+                  <img src="images/home_project6.jpg">
+                  <h4>输电线路工程</h4>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="projectDetail.html?id=7">
+                  <img src="images/home_project7.jpg">
+                  <h4>输电线路工程</h4>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="projectDetail.html?id=8">
+                  <img src="images/home_project8.jpg">
+                  <h4>输电线路工程</h4>
+                </a>
+              </div>
+            </div>
+            <div class="swiper-button-next">&gt;</div>
+            <div class="swiper-button-prev">&lt;</div>
+          </div>
+        </div>
+      </div>
+      <div class="home_content_box home_div4">
+        <h1><span>友情链接</span></h1>
+        <div class="layout">
+          <ul class="clearfix">
+            <li><a href="http://www.mohurd.gov.cn/" target="_blank">中华人民共和国住房和城乡建设部</a></li>
+            <li><a href="http://www.coc.gov.cn/" target="_blank">中国建造师网</a></li>
+            <li><a href="http://www.ccpc360.com/" target="_blank">中国工程项目中心网</a></li>
+            <li><a href="http://www.gsjs.com.cn/?tabid=1" target="_blank">甘肃省住房和城乡建设厅</a></li>
+            <li><a href="http://61.178.32.165/gsjzjgweb/index.aspx?tabid=1" target="_blank">甘肃省建筑市场信息网</a></li>
+            <li><a href="http://www.gsgczj.com.cn/" target="_blank">甘肃工程造价信息网</a></li>
+            <li><a href="http://www.gssjzw.com/" target="_blank">甘肃省建筑领域监管信息平台（甘肃省建筑工程管理中心）</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <ul class="clearfix nav">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="about.html">公司概况</a></li>
+        <li><a href="news.html">新闻动态</a></li>
+        <li><a href="industry.html">产业板块</a></li>
+        <li><a href="culture.html">公司文化</a></li>
+        <li><a href="recruit.html">招贤纳士</a></li>
+        <li><a href="contact.html">联系我们</a></li>
+      </ul>
+      <div class="layout">
+        <h1>甘肃愽海建设工程有限公司&nbsp;&nbsp;<span>Gansu BoHai Construction Engineering Co. Ltd.</span></h1>
+        <div class="clearfix">
+          <div class="contact">
+            <p><img src="images/contact_address.png">地址：甘肃省白银市白银区长通路1号-4幢（01）2幢2-104</p>
+            <p><img src="images/contact_phone.png">电话：0943-8263311</p>
+            <p><img src="images/contact_wx.png">微信：ZHHsuanliuliu</p>
+            <p><img src="images/contact_qq.png">QQ：<a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2284417889" target="_blank">2284417889</a></p>
+            <p><img src="images/contact_mail.png">邮箱：<a href="mailto:bohai@gsbohai.com‍">bohai@gsbohai.com‍</a></p>
+          </div>
+          <div class="qr_code">
+            <img src="images/qr_qq.jpg">
+            <img src="images/qr_wx.jpg">
+          </div>
+        </div>
+        <p class="copyright">Copyright © 甘肃愽海建设工程有限公司 版权所有</p>
+      </div>
+    </footer>
 
-<body>
-	123bohai
-</body>
+    <script src="plugIn/swiper/swiper.min.js"></script>
+    <script type="text/javascript">
+      new Swiper('.banner', {
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev'
+        },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false
+        }
+      });
+      new Swiper('.home_project', {
+        slidesPerView: 4,
+        slidesPerGroup: 4,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev'
+        }
+      });
+    </script>
+  </body>
 </html>
