@@ -103,7 +103,7 @@
           　　链接注意事项<br />
           　　　　若想在其它网站上提供至本网站的链接，请遵守以下规定：<br />
           　　　　1、链接本网站必须与甘肃愽海建设工程有限公司签订正式协议。<br />
-          　　　　2、除与甘肃愽海建设工程有限公司协议中有特殊约定外，链接必须指向URL"www.bohai.com"而不是本网站的其它页面。<br />
+          　　　　2、除与甘肃愽海建设工程有限公司协议中有特殊约定外，链接必须指向URL"www.gsbohai.com"而不是本网站的其它页面。<br />
           　　　　3、链接的外观、位置及其它方面必须不能有损或淡化甘肃愽海建设工程有限公司的名称。<br />
           　　　　4、链接的外观位置及其它有关方面不能给浏览者造成错觉。<br />
           　　　　5、当浏览者激活该链接时，本网站内容必须以全屏幕的方式显现。<br />
@@ -146,5 +146,19 @@
     <script src="javascript/jquery-3.2.1.min.js"></script>
     <script src="plugIn/swiper/swiper.min.js"></script>
     <script src="javascript/about.js"></script>
+    <script>
+      (function(){
+          var bp = document.createElement('script');
+          var curProtocol = window.location.protocol.split(':')[0];
+          if (curProtocol === 'https'){
+         bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else{
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(bp, s);
+      })();
+    </script>
   </body>
 </html>
